@@ -4,7 +4,7 @@ import { useQuery } from '@apollo/client'
 import { ALL_TODO } from '../apollo/todos';
 
 const TotalCount = () => {
-  const { data } = useQuery(ALL_TODO);
+ const { data } = useQuery(ALL_TODO);
 
   return (
     <Flex justifyContent={'center'} borderTop={'2px'} mt="5">
